@@ -11,6 +11,168 @@ body {
     background-color: #040D12;
 }
 
-h1 {
-    color: #93B1A6;
+h1, h2, h3, h4, h5, h6 {
+    color: #5C8374;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr {
+    border: 1px solid #5C8374;
+}
+
+#owlpine-title {
+    font-size: 48px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#coming-soon {
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@keyframes colorChange {
+    0%{fill:#183D3D}
+    50%{fill:#93B1A6}
+    100%{fill: #183D3D}
+}
+
+@keyframes invColorChange {
+    0%{fill:#93B1A6}
+    50%{fill:#183D3D}
+    100%{fill: #93B1A6}
+}
+
+.hexagon1 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 3s infinite;
+}
+
+.hexagon2 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 6s infinite;
+}
+
+.hexagon3 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 10s infinite;
+}
+
+.hexagon4 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 9s infinite;
+}
+
+.hexagon5 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 6.5s infinite;
+}
+
+.hexagon6 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 3s infinite;
+}
+
+.hexagon7 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 6s infinite;
+}
+
+.hexagon8 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 10s infinite;
+}
+
+.hexagon9 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 9s infinite;
+}
+
+.hexagon10 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 6.5s infinite;
+}
+
+.hexagon11 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 3s infinite;
+}
+
+.hexagon12 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 15s infinite;
+}
+
+.hexagon13 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 4s infinite;
+}
+
+.hexagon14 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 9s infinite;
+}
+
+.hexagon15 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 6.5s infinite;
+}
+
+.hexagon16 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 20s infinite;
+}
+
+.hexagon17 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 6s infinite;
+}
+
+.hexagon18 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 11s infinite;
+}
+
+.hexagon19 {
+    fill: #183D3D;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: colorChange 9s infinite;
+}
+
+.hexagon20 {
+    fill: #93B1A6;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.0));
+    animation: invColorChange 6.5s infinite;
 }
